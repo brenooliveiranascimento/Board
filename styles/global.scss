@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+@media(max-width:1080px){
+    html{
+        font-size:93.75%
+    }
+}
+
+body{
+    background: #f2f6fc;
+}
+
+body, input, textarea, select, button, div{
+    font:400 1rem sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+}

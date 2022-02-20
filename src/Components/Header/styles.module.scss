@@ -1,0 +1,36 @@
+.headerContainer{
+    background-color: #141a29;
+    height: 6rem;
+}
+
+.headerContain{
+    height: 6rem;
+    align-items: center;
+    display:flex;
+    margin:0px auto;
+    max-width: 1120px;
+    img{
+        cursor: pointer;
+    }
+
+    nav{
+        margin-left: 5rem;
+        height: 5rem;
+        a{
+            color:#fff;
+            display:inline-block;
+            position:relative;
+            padding: 0 0.5 rem;
+            height: 5rem;
+            line-height: 5rem;
+            & + a{
+                margin-left: 2rem;
+            }
+        }
+    }
+
+    button{
+        margin-left:auto
+    }
+}
+

@@ -1,0 +1,19 @@
+.contain{
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    z-index: 99;
+    button{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border:0;
+        background-color: #ffb600;
+        transition: all 0.2s;
+        filter: drop-shadow(2px 1px 5px rgba(0,0,0,0.2));
+
+    }
+    button:hover{
+        transform:scale(140%);
+    }
+}
