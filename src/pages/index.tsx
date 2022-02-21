@@ -1,4 +1,4 @@
-import styles from '../../styles/styles.module.scss'
+import styles from '../styles/styles.module.scss'
 import Head from 'next/head'
 import { GetStaticProps } from 'next'
 import firebase from '../services/firebaseConection'

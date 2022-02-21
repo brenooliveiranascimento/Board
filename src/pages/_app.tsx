@@ -1,8 +1,8 @@
 import { AppProps } from 'next/app'
-import '../../styles/global.scss';
+import '../styles/global.scss';
 import { Provider as SessionProvider }  from 'next-auth/client'
 import { PayPalScriptProvider } from '@paypal/react-paypal-js'
-import Header from '../Components/Header';
+import { Header } from '../Components/Header';
 //Produção: AXKyBzUdPZyKzY0L7JZlqCVKcQTM0UfQa5jcOIbNKNwMtVbf8lstH0ZZasZKj2NSRazGbe84B3nURcPo
 function MyApp({ Component, pageProps }: AppProps) {
 

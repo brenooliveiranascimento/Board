@@ -6,9 +6,7 @@ import headerLogo from '../../../Public/images/logo.svg'
 
 
 
-export default function Header(){
-
-
+export function Header(){
     return(
         <header className={styles.headerContainer}>
             <div className={styles.headerContain}>
