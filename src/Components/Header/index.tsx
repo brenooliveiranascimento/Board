@@ -6,7 +6,7 @@ import headerLogo from '../../../Public/images/logo.svg'
 
 
 
-export function Header(){
+export default function Header(){
 
 
     return(
