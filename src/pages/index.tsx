@@ -47,15 +47,7 @@ export default function Home({ data } : HomeProp) {
 
 
 
-    <div
-    className={styles.apoiadoresContain}
-    >
-      {
-        donaters.map((item)=>(
-          <Image alt='board' key={item.id} width={65} height={65} src={item.image}/>
-          ) )
-      }
-    </div>
+
 
   </main>
     </>
