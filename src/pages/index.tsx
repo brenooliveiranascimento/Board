@@ -45,10 +45,15 @@ export default function Home({ data } : HomeProp) {
 
       {donaters.length >= 1 && <h3 className={styles.apoiadores}>Apoiadores</h3>}
 
-
-
-
-
+    <div
+    className={styles.apoiadoresContain}
+    >
+      {
+        donaters.map((item)=>(
+          <Image alt='board' key={item.id} width={65} height={65} src={item.image}/>
+          ) )
+      }
+    </div>
   </main>
     </>
   )
