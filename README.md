@@ -21,15 +21,20 @@
   - Criar página de home estática para melhor performaçe.
   - Criar um sistema de login via github com next auth.
   - Ter um certo aprendizado em respansividade
+ 
+ 
+ 
+ 
   
-  ### <h1>Detalhes do projeto<h1>
-  Neste projeto eu tive a oportunidade de estudar diferentes recursos que o NextJs disponibiliza, como por exemplo a server side rendering que é
+  ## <h1>Detalhes do projeto<h1>
+  - Neste projeto eu tive a oportunidade de estudar diferentes recursos que o NextJs disponibiliza, como por exemplo a server side rendering que é
   perfeita para verificações de login e se o usuário possui alguma assinatura ou compra no meu projeto, ele garante que tudo seja verificado pelo lado do
   back end fazendo assim uma aplicação muito mais segura pois o cliente não terá acesso a essas verificações.
-  Outro ponto importante que pude aplicar neste projeto foi a questão da página de home estática, pois como a home é algo que no geral possui poucas atualizações
+  - Outro ponto importante que pude aplicar neste projeto foi a questão da página de home estática, pois como a home é algo que no geral possui poucas atualizações
   que dependem diretamente de uma api ou banco de dados, não fazia sentido o setvidor gerar um html novo para cada pessoa que acessa o site, então o next disponibiliza esta
   funcionalidade maravilhoza de atualizar páginas estáticas de certo em certo tempo (aqui no caso de uma em uma hora ).
-  Pude estudar também a parte da respansividade que é de extrema importtancia para sites no geral.
+ - Também fui capaz de integra um sistema de pagamento do PayPal
+  - Pude estudar também a parte da respansividade que é de extrema importtancia para sites no geral.
   
   
 
