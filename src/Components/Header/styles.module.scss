@@ -14,7 +14,7 @@
     }
 
     nav{
-        margin-left: 5rem;
+        margin-left: 6rem;
         height: 4rem;
         a{
             color:#fff;
@@ -31,5 +31,13 @@
 
     button{
         margin-left:auto
+    }
+}
+
+@media(max-width:730px){
+.headerContain{
+    nav{
+         margin-left: 4rem;
+    }
     }
 }
