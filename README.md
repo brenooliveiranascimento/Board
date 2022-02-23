@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img src="https://user-images.githubusercontent.com/94801880/155329121-ee8fa370-b3a3-4b55-b8b7-e6e67efd3aeb.svg" width=150, align="center"/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### <h1>Board<h1/> 
+ Esta é uma aplicação de lista de tarefas que consome um banco de dados firebase e a api do Paypay para serviço fremium de apoiadores do projeto
+  
+<img src="https://user-images.githubusercontent.com/94801880/155334241-9ff546d6-79cf-4bc2-833f-33d77f1b1e2b.gif">
+  
+  para acessar o projeto: https://board-anotacoes.herokuapp.com
+ 
+  
+  ### <h1>Aprendizado<h1>
+  Neste Projeto fui capaz de:
+  - Integrar um sistema de pagamento em produção consumindo a api da propria paypal.
+  - Injetar consumir e atualizar dados de um banco de dados.
+  - Fazer renderização do lado servidor para verificações de apoiador ou não apoiador
+  - Criar página de home estática para melhor performaçe.
+  - Criar um sistema de login via github com next auth.
+  - Ter um certo aprendizado em respansividade
+ 
+ 
+ 
+ 
+  
+  ## <h1>Detalhes do projeto<h1>
+  - Neste projeto eu tive a oportunidade de estudar diferentes recursos que o NextJs disponibiliza, como por exemplo a server side rendering que é
+  perfeita para verificações de login e se o usuário possui alguma assinatura ou compra no meu projeto, ele garante que tudo seja verificado pelo lado do
+  back end fazendo assim uma aplicação muito mais segura pois o cliente não terá acesso a essas verificações.
+  - Outro ponto importante que pude aplicar neste projeto foi a questão da página de home estática, pois como a home é algo que no geral possui poucas atualizações
+  que dependem diretamente de uma api ou banco de dados, não fazia sentido o setvidor gerar um html novo para cada pessoa que acessa o site, então o next disponibiliza esta
+  funcionalidade maravilhoza de atualizar páginas estáticas de certo em certo tempo (aqui no caso de uma em uma hora ).
+ - Também fui capaz de integra um sistema de pagamento do PayPal
+  - Pude estudar também a parte da respansividade que inclusive ainda estou melhorando.
+  
+  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tecnologias utilizadas:
+<a href="https://www.javascript.com/"><img src="https://user-images.githubusercontent.com/94801880/154269920-88bfea74-6872-418a-b199-aab44e6787dd.png" width=90></a>
+<a href="https://www.reactnative.com/"><img src="https://user-images.githubusercontent.com/94801880/155338444-6ca5722e-866a-403e-89f7-6217b0ff6e03.png" width=90></a>
+<a href="https://rnfirebase.io/"><img src="https://user-images.githubusercontent.com/94801880/152535515-3503ef54-50a0-4765-a057-6013f4aa8521.png" width=90></a>
+<a href="https://www.javascript.com/"><img src="https://user-images.githubusercontent.com/94801880/155344948-f9d6a2ce-f0a3-498b-9c42-b4c0631c967c.png" width=90></a>
+<a href="https://styled-components.com/"><img src="https://user-images.githubusercontent.com/94801880/155338849-89b4afdc-ac96-4918-860f-d7a570704c4f.png" width=90></a>
+  
