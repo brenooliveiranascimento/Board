@@ -34,7 +34,7 @@
   que dependem diretamente de uma api ou banco de dados, não fazia sentido o setvidor gerar um html novo para cada pessoa que acessa o site, então o next disponibiliza esta
   funcionalidade maravilhoza de atualizar páginas estáticas de certo em certo tempo (aqui no caso de uma em uma hora ).
  - Também fui capaz de integra um sistema de pagamento do PayPal
-  - Pude estudar também a parte da respansividade que é de extrema importtancia para sites no geral.
+  - Pude estudar também a parte da respansividade que inclusive ainda estou melhorando.
   
   
 
