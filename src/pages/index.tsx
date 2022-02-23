@@ -45,8 +45,6 @@ export default function Home({ data } : HomeProp) {
 
       {donaters.length >= 1 && <h3 className={styles.apoiadores}>Apoiadores</h3>}
 
-
-
     <div
     className={styles.apoiadoresContain}
     >
@@ -56,7 +54,6 @@ export default function Home({ data } : HomeProp) {
           ) )
       }
     </div>
-
   </main>
     </>
   )
