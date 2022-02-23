@@ -43,6 +43,6 @@
 <a href="https://www.javascript.com/"><img src="https://user-images.githubusercontent.com/94801880/154269920-88bfea74-6872-418a-b199-aab44e6787dd.png" width=90></a>
 <a href="https://www.reactnative.com/"><img src="https://user-images.githubusercontent.com/94801880/155338444-6ca5722e-866a-403e-89f7-6217b0ff6e03.png" width=90></a>
 <a href="https://rnfirebase.io/"><img src="https://user-images.githubusercontent.com/94801880/152535515-3503ef54-50a0-4765-a057-6013f4aa8521.png" width=90></a>
-<a href="https://www.javascript.com/"><img src="https://user-images.githubusercontent.com/94801880/152536097-3aed0c74-3fc8-4154-9b8f-155c8988bda3.png" width=90></a>
+<a href="https://www.javascript.com/"><img src="https://user-images.githubusercontent.com/94801880/155344948-f9d6a2ce-f0a3-498b-9c42-b4c0631c967c.png" width=90></a>
 <a href="https://styled-components.com/"><img src="https://user-images.githubusercontent.com/94801880/155338849-89b4afdc-ac96-4918-860f-d7a570704c4f.png" width=90></a>
   
