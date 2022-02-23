@@ -150,3 +150,20 @@
     color:#ffb600;
     margin-left: 5px;
 }
+
+.donateContain{
+flex-direction: row;
+display: flex;
+align-items: center;
+}
+
+@media(max-width:730px){
+    .container{
+        form{
+            input{
+                width: 80%;
+            }
+        }
+    }
+    
+}

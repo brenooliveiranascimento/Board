@@ -34,3 +34,12 @@
     }
 }
 
+@media ( max-width: 730px ){
+    .headerContainer{
+        height: 11rem;
+    }
+    .headerContain{
+        flex-direction: column;
+
+    }
+}

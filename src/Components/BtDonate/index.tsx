@@ -5,7 +5,7 @@ export default function BtnDonate(){
     return(
         <div className={styles.contain}>
          <Link href={'/Donate'} passHref>
-          <button>
+          <button >
             Apoiar
           </button>
          </Link>

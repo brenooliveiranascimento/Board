@@ -116,6 +116,7 @@ export default function Board({ user, data }: BoardProps){
                     </button>você está editando uma tarefa</span>
                 ) }
             <form onSubmit={handleTask}>
+
                 
                 <input
                 onChange={(e)=>setInput(e.target.value)}
@@ -127,7 +128,12 @@ export default function Board({ user, data }: BoardProps){
                     <FiPlus color='#17181f' size={25}/>
                 </button>
             </form>
-            <h1>voce tem { taskList.length } { taskList.length === 1 ? 'tarefa!' : 'tarefas!' }</h1>
+            <div className={styles.donateContain}>
+                <BtnDonate/>
+                <h1>voce tem { taskList.length } { taskList.length === 1 ? 'tarefa!' : 'tarefas!' }</h1>
+            </div>
+            
+
 
             <section>
                 {
@@ -180,7 +186,6 @@ export default function Board({ user, data }: BoardProps){
          )
      }
         
-            <BtnDonate/>
         </>
     )
 }
