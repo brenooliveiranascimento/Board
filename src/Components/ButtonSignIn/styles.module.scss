@@ -37,3 +37,12 @@
 svg.svgImage{
     margin-left: 1rem;
 }
+
+@media ( max-width:730px ){
+    .ButtonContain{
+            p{
+                font-size: 0px;
+            }
+    }
+    
+}

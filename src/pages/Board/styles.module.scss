@@ -155,6 +155,8 @@
 flex-direction: row;
 display: flex;
 align-items: center;
+
+
 }
 
 @media(max-width:730px){
@@ -165,5 +167,20 @@ align-items: center;
             }
         }
     }
-    
+}
+
+@media(max-width:730px){
+    .vipArea{
+        h3{
+            font-size: 25px;
+        }
+        data{
+            font-size:10px;
+        }
+    }
+    .donateContain{
+        h1{
+            font-size: 25px;
+        }
+    }
 }

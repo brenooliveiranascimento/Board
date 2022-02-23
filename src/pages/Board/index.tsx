@@ -130,7 +130,7 @@ export default function Board({ user, data }: BoardProps){
             </form>
             <div className={styles.donateContain}>
                 <BtnDonate/>
-                <h1>voce tem { taskList.length } { taskList.length === 1 ? 'tarefa!' : 'tarefas!' }</h1>
+                <h1>voce tem { taskList.length } { taskList.length < 1 ? 'tarefa!' : 'tarefas!' }</h1>
             </div>
             
 
